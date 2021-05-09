@@ -1,0 +1,75 @@
+#######################################
+# Syntax Coloring Map For BQ27531
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+BQ27531						KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin						KEYWORD2
+initialize					KEYWORD2
+testConnection				KEYWORD2
+
+readControlDeviceType		KEYWORD2
+readControlFirmwareVersion	KEYWORD2
+readControlHardwareVersion	KEYWORD2
+flags						KEYWORD2
+status						KEYWORD2
+
+readTemperature				KEYWORD2
+readVoltage					KEYWORD2
+readCurrent					KEYWORD2
+readCapacity				KEYWORD2
+readPower					KEYWORD2
+readStateOfCharge			KEYWORD2
+readStateOfHealth			KEYWORD2
+
+getFlagDsg					KEYWORD2
+getFlagSysdown				KEYWORD2
+getFlagSoc1					KEYWORD2
+getFlagBatDet				KEYWORD2
+getFlagWaitId				KEYWORD2
+getFlagOcvGd				KEYWORD2
+getFlagChg					KEYWORD2
+getFlagFc					KEYWORD2
+getFlagGgChgrctlEn			KEYWORD2
+getFlagDivCur				KEYWORD2
+getFlagCalmode				KEYWORD2
+getFlagUt					KEYWORD2
+getFlagOt					KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+AVG							LITERAL1
+STBY						LITERAL1
+PROG						LITERAL1
+INST						LITERAL1
+TAPER						LITERAL1
+CALCI						LITERAL1
+CALCV						LITERAL1
+MEAS						LITERAL1
+PROGI						LITERAL1
+PROGV						LITERAL1
+BATTERY						LITERAL1
+INTERNAL_TEMP				LITERAL1
+REMAIN						LITERAL1
+FULL						LITERAL1
+AVAIL						LITERAL1
+FULL_CHAR					LITERAL1
+REMAIN_UF					LITERAL1
+REMAIN_F					LITERAL1
+FULL_UF						LITERAL1
+FULL_F						LITERAL1
+DESIGN						LITERAL1
+FILTERED					LITERAL1
+UNFILTERED					LITERAL1
